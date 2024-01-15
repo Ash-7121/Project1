@@ -30,9 +30,7 @@
             font-style: normal;
         }
 
-        ul {
-
-        }
+        ul {}
 
         ul li {
             list-style: none;
@@ -47,6 +45,27 @@
             font-style: normal;
             padding: 0 8px;
             color: #5A3825;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5,1fr); 
+            grid-template-columns: 168px 168px 168px 168px 168px;;
+            padding-left: 201px;
+           
+        }
+
+        .grid-item {
+            background-color: #ffffe3;
+            border: 1px solid #ffffe3;
+            padding: 20px;
+            font-size: 14px;
+            text-align: center;
+            color: #5A3825;
+            font-family: "fot-seurat-pron", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+        
         }
     </style>
 
@@ -66,6 +85,27 @@
     <p>
         hi
     </p>
+
+    <div class="grid-container">
+        <div class="grid-item">Name</div>
+        <div class="grid-item">Energy Saved</div>
+        <div class="grid-item">Sell Price</div>  
+        <div class="grid-item">Recipe</div>
+        <div class="grid-item">IRL Recipe</div>
+        <div class="grid-item">6</div>  
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div> 
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>  
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>  
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div> 
+      </div>
 </body>
 
 </html>
