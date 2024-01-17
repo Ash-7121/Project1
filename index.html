@@ -17,7 +17,7 @@
     </script>
     <style>
         html {
-            background: url(images/bg.jpg) no-repeat center center fixed;
+            background: url(images/centerbg.JPG) no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -51,20 +51,19 @@
             background-color: grey;
             text-align: center;
             font-size: 20px;
-            
-            width: 780px;
-            padding-left: 100px;
+            width: 870px;
             margin:auto;
+            top:0;
+            position: sticky;
+            justify-content: center;
         }
 
         .grid-container {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
-            grid-template-columns: 168px 168px 168px 168px 168px;
-            ;
-            padding-left: 201px;
-            padding-top: 200px;
-
+            grid-template-columns: 170px 170px 170px 170px 170px;
+            margin:auto;
+            justify-content: center;
         }
 
         .grid-item {
@@ -100,14 +99,21 @@
         <h2>
             DIY Food & Drinks Recipes
         </h2>
+        <div class="grid-container">
+            <div class="grid-item">Name</div>
+            <div class="grid-item">Energy Saved</div>
+            <div class="grid-item">Sell Price</div>
+            <div class="grid-item">Recipe</div>
+            <div class="grid-item">IRL Recipe</div>
+        </div>
      
     </div>
     <div class="grid-container">
-        <div class="grid-item">Name</div>
-        <div class="grid-item">Energy Saved</div>
-        <div class="grid-item">Sell Price</div>
-        <div class="grid-item">Recipe</div>
-        <div class="grid-item">IRL Recipe</div>
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">1</div>
+        <div class="grid-item">1</div>
+        <div class="grid-item">1</div>
         <div class="grid-item">6</div>
         <div class="grid-item">7</div>
         <div class="grid-item">8</div>
