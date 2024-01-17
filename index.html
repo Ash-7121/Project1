@@ -22,7 +22,7 @@
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-            height:auto;
+            height: auto;
 
         }
 
@@ -34,13 +34,13 @@
 
         ul {
             text-align: right;
-            padding-top: 15px;
+            padding-right: 20px;
         }
 
         ul li {
             list-style: none;
             display: inline-block;
-            
+
         }
 
         ul li a {
@@ -51,7 +51,7 @@
             font-style: normal;
             padding: 0 8px;
             color: #5A3825;
-           
+
         }
 
         .topnav {
@@ -59,18 +59,21 @@
             text-align: center;
             font-size: 20px;
             width: 870px;
-            margin:auto;
-            top:0;
+            margin: auto;
+            top: 0;
             position: sticky;
             justify-content: center;
-            
+            border-style: solid;
+            border-color: #ffffe3;
+            border-bottom-color: #5A3825;
+            border-width: medium;
         }
 
         .grid-container {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
             grid-template-columns: 170px 170px 170px 170px 170px;
-            margin:auto;
+            margin: auto;
             justify-content: center;
         }
 
@@ -87,7 +90,30 @@
 
         }
 
+        @font-face {
+            font-family: fink-heavy;
+            src: url(fonts/fink-heavy.ttf) format('truetype');
+            font-weight: 400;
+            font-style: normal;
+        }
 
+        div {
+            font-family: fink-heavy;
+        }
+       
+        h1{
+            font-size: 90px;
+            margin-top:50px;
+            padding-top: 0;
+            color: #5A3825;
+            line-height: 0%;
+        }
+
+        h2{
+            line-height: 80%;
+            color: #5A3825;
+            font-size: 50px;
+        }
     </style>
 
 </head>
@@ -97,7 +123,7 @@
     <div class="topnav">
         <nav>
             <ul>
-                
+
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
@@ -114,10 +140,10 @@
             <div class="grid-item">Recipe</div>
             <div class="grid-item">IRL Recipe</div>
         </div>
-     
+
     </div>
     <div class="grid-container">
-        <div class="grid-item">1</div>
+        <div class="grid-item">Apple Jam</div>
         <div class="grid-item">2</div>
         <div class="grid-item">1</div>
         <div class="grid-item">1</div>
