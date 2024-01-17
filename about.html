@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,15 +28,21 @@
             font-family: "fot-seurat-pron", sans-serif;
             font-weight: 600;
             font-style: normal;
+            color: #5A3825;
+            text-align: center;
+            padding: 200px;
+            margin: auto;
+            vertical-align: middle;
         }
 
         ul {
-
+            align-items: left;
         }
 
         ul li {
             list-style: none;
             display: inline-block;
+            align-items: left;
         }
 
         ul li a {
@@ -47,8 +54,46 @@
             padding: 0 20px;
             
         }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: grid;
+            place-items: center;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: 170px 170px 170px 170px 170px;
+            margin: auto;
+            justify-content: center;
+            position: relative;
+
+        }
+
+        .grid-item {
+            background-color: rgb(255,251,231);
+            padding: 20px;
+            font-size: 14px;
+            text-align: center;
+            color: #5A3825;
+            font-family: "fot-seurat-pron", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            position: sticky;
+            min-width: 800px;
+            max-width: 1000px;
+            top: 37%;
+        }
+
+
     </style>
 </head>
+
 <body>
     <nav>
         <ul>
@@ -56,6 +101,22 @@
             <li><a href="about.html">About</a></li>
         </ul>
     </nav>
-    
+    <div class="grid-item">
+        <div>Animal Crossing: New Horizons is a social simulation game that involves creating a home, interacting with
+            animal villagers, and enjoying everything else the game has to offer such as fishing, visiting other
+            people’s islands, and shopping. A large part of the game is collecting DIY recipes which allows you to build
+            even more items that aren’t sold in shops. There are various ways to get these DIY recipes such as from your
+            own villagers, message bottles, from other players, balloon presents and more. One category of these DIY
+            recipes are foods and drinks which you are able to make once you have an interactable kitchen item. These
+            food items can become cute decorations to your island or home or even be eaten or drinken to earn energy
+            points which are used to relocate trees or break rocks.</div>
+
+    </div>
+
+    <p>
+
+    </p>
+
 </body>
+
 </html>
