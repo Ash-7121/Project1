@@ -35,11 +35,14 @@
         ul {
             text-align: right;
             padding-right: 20px;
+            
+            
         }
 
         ul li {
             list-style: none;
             display: inline-block;
+            
 
         }
 
@@ -49,9 +52,11 @@
             font-family: "fot-seurat-pron", sans-serif;
             font-weight: 600;
             font-style: normal;
-            padding: 0 8px;
-            color: #5A3825;
-
+            padding: 0 1px;
+            color: rgb(238,242,243);
+            position: relative;
+            top: -12px;
+            right:1px;
         }
 
         .topnav {
@@ -100,19 +105,27 @@
         div {
             font-family: fink-heavy;
         }
-       
-        h1{
+
+        h1 {
             font-size: 90px;
-            margin-top:55px;
+            margin-top: 55px;
             padding-top: 0;
             color: #5A3825;
             line-height: 0%;
         }
 
-        h2{
+        h2 {
             line-height: 80%;
             color: #5A3825;
             font-size: 50px;
+        }
+
+        #rcorners1 {
+            border-radius: 35px;
+            background: rgb(217,95,90);
+            padding: 15px;
+            width: 45px;
+            height: 5px;
         }
     </style>
 
@@ -124,7 +137,7 @@
         <nav>
             <ul>
 
-                <li><a href="about.html">About</a></li>
+                <li id="rcorners1"><a href="about.html">About</a></li>
             </ul>
         </nav>
         <h1>
@@ -146,7 +159,9 @@
         <div class="grid-item">Apple Jam</div>
         <div class="grid-item">5</div>
         <div class="grid-item">450 Bells</div>
-        <div class="grid-item"><li>3 apples</li></div>
+        <div class="grid-item">
+            <li>3 apples</li>
+        </div>
         <div class="grid-item">1</div>
         <div class="grid-item">6</div>
         <div class="grid-item">7</div>
